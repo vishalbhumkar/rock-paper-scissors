@@ -26,8 +26,10 @@ function playGame(userChoice){
     else{
         result = "You Lost 😔👎"
     }
-     usrChoice.textContent = "Your choice : " ,userChoice;
-    compChoice.textContent = "Computer choice : ", computerChoice;
+   
+     
+     usrChoice.textContent = "User choice is : "+ userChoice;
+    compChoice.textContent =  "Computer choice is : "+ computerChoice;
     finResult.textContent = result;
 
 }
