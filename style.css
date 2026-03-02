@@ -1,0 +1,37 @@
+*{
+    border: 0;
+    margin: 0;
+    border-radius: border-box;
+}
+body{
+    background-color: #272727;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.choices button {
+    font-size: 140px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
